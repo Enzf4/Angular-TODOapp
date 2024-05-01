@@ -14,7 +14,7 @@ export class AppComponent {
   arrayDeTarefas: Tarefa[] = [];
   apiURL : string;
   constructor(private http: HttpClient) {
-    this.apiURL = 'http://localhost:3000';
+    this.apiURL = 'https://harsh-aloisia-tp-faculdade.koyeb.app/';
   this.READ_tarefas();
   }
 
