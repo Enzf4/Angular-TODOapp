@@ -14,7 +14,7 @@ export class AppComponent {
   arrayDeTarefas: Tarefa[] = [];
   apiURL : string;
   constructor(private http: HttpClient) {
-  this.apiURL = 'https://married-clerissa-enzocodes.koyeb.app/'
+  this.apiURL = 'https://api-todoapp-2z3u.onrender.com'
   this.READ_tarefas();
   }
 
