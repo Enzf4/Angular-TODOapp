@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Jacquarda+Bastarda+9&family=Jersey+10&display=swap');
+
+*{
+    font-family: "DotGothic16", sans-serif;
+}
+
 body {
-    font-family: Helvetica, Arial, sans-serif;
+    background-color: #0a0a0a;
+    color: aliceblue;
 }
 
 .btn-wrapper {
@@ -32,30 +39,22 @@ body {
 
 .btn-primary {
     color: #ffffff;
-    background-color: #8f4ea8;
+    background-color: #0a0a0a;
+    border: 1px solid aliceblue;
     width: 100%;
     padding: .75rem;
     font-size: 1.3rem;
-    border: none;
     margin: 1rem 0;
     font-weight: bold;
-    border-radius: 8px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .btn-primary:hover {
-    background-color: #a762a7;
-}
-
-.btn-primary:focus {
-    color: #000;
-    outline: none;
-    border: #000 solid 2px;
-    background-color: #a762a7;
+    border-color: #0a0a0a;
 }
 
 .btn-primary:active {
-    background-color: #212020;
+    border: 1px solid aliceblue;
 }

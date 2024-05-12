@@ -1,9 +1,9 @@
 <div class="main">
-  <h1>Luiza Diegues - 188543</h1>
+  <h1>Task List</h1>
   <input class="lg-text-input" (keydown.enter)="CREATE_tarefa(campoNovoItem.value)"
     (keydown.enter)="campoNovoItem.value = ''" #campoNovoItem />
   <button class="btn-primary" (click)="CREATE_tarefa(campoNovoItem.value)" (click)="campoNovoItem.value = ''">
-    Adicionar Tarefa</button>
+    Add Task</button>
   <ul>
     <li *ngFor="let tarefaDoLoop of arrayDeTarefas">
       <app-item [tarefa]="tarefaDoLoop" (removeTarefa)="DELETE_tarefa(tarefaDoLoop)"
