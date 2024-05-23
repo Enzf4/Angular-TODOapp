@@ -8,6 +8,7 @@
 .btn-wrapper {
     margin-top: 1rem;
     margin-bottom: .5rem;
+    font-weight: 100;
 }
 
 .btn {
@@ -16,13 +17,36 @@
     font-weight: bold;
     padding: 0.6rem 0.5rem;
     font-size: 1rem;
+    cursor: pointer;
+    font-weight: 100;
 }
+
+@keyframes borderAlt {
+    0% {
+      border-color: #0a0a0a;
+    }
+    50% {
+      border-color: aliceblue;
+    }
+    100% {
+      border-color: #0a0a0a;
+    }
+  }
+  
+  .btn {
+    transition: none;
+  }
+  
+  .btn:hover {
+    animation: borderAlt 1.5s steps(1) infinite;
+  }
 
 .btn-save {
     background-color: #0a0a0a;
     color: aliceblue;
-    border-color: aliceblue;
+    border-color: #00b90a;
     border-width: 1px;
+    cursor: pointer;
 }
 
 .btn-save:hover {
@@ -34,6 +58,7 @@
     color: aliceblue;
     border-color: aliceblue;
     border-width: 1px;
+    cursor: pointer;
 }
 
 .btn-edit:hover {
@@ -47,8 +72,9 @@
 .btn-cancel {
     background-color: #0a0a0a;
     color: aliceblue;
-    border-color: aliceblue;
+    border-color: #9a0000;
     border-width: 1px;
+    cursor: pointer;
 }
 
 .btn-cancel:hover {
@@ -59,6 +85,7 @@
     background-color: #0a0a0a;
     color: #fff;
     border-color: #9a0000;
+    cursor: pointer;
 }
 
 .btn-warn:hover {

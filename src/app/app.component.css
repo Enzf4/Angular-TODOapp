@@ -44,10 +44,12 @@ label {
 
 .btn-wrapper {
     margin-bottom: 2rem;
+    cursor: pointer;
 }
 
 .btn-menu {
     flex-basis: 32%;
+    cursor: pointer;
 }
 
 .active {
