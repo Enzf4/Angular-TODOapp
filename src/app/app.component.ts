@@ -17,7 +17,7 @@ export class AppComponent implements OnInit {
   nomeUsuario: string = ''; // Variável para armazenar o nome do usuário
 
   constructor(private http: HttpClient) {
-    this.apiURL = 'https://protestant-brande-enzocodes.koyeb.app/'; // Coloque sua URL de API aqui
+    this.apiURL = 'https://protestant-brande-enzocodes.koyeb.app'; // Coloque sua URL de API aqui
   }
 
   ngOnInit() {
